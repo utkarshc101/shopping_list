@@ -7,7 +7,7 @@ import os
 # Load model
 model_path = "../models/shopping_model.pkl"
 if not os.path.exists(model_path):
-    url = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+    url = "https://drive.google.com/uc?id=1fREKi2NsQ4pOxJyky_bd5JPEy7a0z5oC"
     gdown.download(url, model_path, quiet=False)
 
 # Now load as usual
